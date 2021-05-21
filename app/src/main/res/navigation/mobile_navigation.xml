@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mirea.mech.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mirea.mech.mireaproject.ui.calculate.CalculateFragment"
+        android:label="Calculate"
+        tools:layout="@layout/fragment_calculate" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mirea.mech.mireaproject.ui.browser.BrowserFragment"
+        android:label="Browse"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_audioPlayer"
+        android:name="com.mirea.mech.mireaproject.ui.audioplayer.AudioPlayerFragment"
+        android:label="Audio Player"
+        tools:layout="@layout/fragment_audio_player" />
+    <fragment
+        android:id="@+id/nav_func"
+        android:name="com.mirea.mech.mireaproject.ui.func.FuncFragmaent"
+        android:label="Practice"
+        tools:layout="@layout/fragment_func_fragmaent" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.mirea.mech.mireaproject.ui.story.History"
+        android:label="Stories"
+        tools:layout="@layout/fragment_histoty" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.mirea.mech.mireaproject.ui.settings.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
